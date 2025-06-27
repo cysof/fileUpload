@@ -40,8 +40,8 @@ A robust Django REST Framework application for handling file uploads with Cloudi
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
-cd django-file-upload-api
+git clone https://github.com/cysof/fileUpload.git
+cd fileUpload/task
 ```
 
 ### 2. Create Virtual Environment
