@@ -25,7 +25,9 @@ class FileUploadSerializer(serializers.Serializer):
         allowed_types = [
             'image/jpeg', 'image/jpg', 'image/png', 'image/gif', 
             'application/pdf', 'text/plain', 'application/msword',
-            'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+            'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+            'application/json',
+            'application/json', 'text/csv'
         ]
         
         if value.content_type not in allowed_types:

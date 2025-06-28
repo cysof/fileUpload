@@ -12,6 +12,7 @@ python-dotenv = "*"
 pillow = "*"
 responses = "*"
 drf-yasg = "*"
+pytest = "*"
 
 [dev-packages]
 
